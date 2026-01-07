@@ -29,18 +29,34 @@
   
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="/opa/favicon.svg">
+
+    <style>
+    #content {
+      display: none;
+    }
+  </style>
 </head>
 <body>
   <div id="root"></div>
   <script type="module" src="/src/main.tsx"></script>
-  <script>
+
+
+<div id="content">
+  <h1>Секретний контент</h1>
+  <p>Вітаю!</p>
+</div>
+
+<script>
   const password = "1234";
   const input = prompt("Введіть пароль:");
 
-  if (input !== password) {
+  if (input === password) {
+    document.getElementById("content").style.display = "block";
+  } else {
     document.body.innerHTML = "❌ Доступ заборонено";
   }
-  </script>
+</script>
+
   <script>
     // Register Service Worker for PWA
     if ('serviceWorker' in navigator) {
