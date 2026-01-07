@@ -1,9 +1,9 @@
 {
   "name": "Резерв ID",
   "short_name": "Резерв",
-  "start_url": "/Twwwwwins//index.html",
-  "id": "/Twwwwwins/assets/",
-  "scope": "/Twwwwwins/assets/",
+  "start_url": "/opa//index.html",
+  "id": "/opa/assets/",
+  "scope": "/opa/assets/",
   "display": "standalone",
   "background_color": "#e0dfcb",
   "theme_color": "#e0dfcb",
@@ -11,23 +11,23 @@
   "description": "ksiva",
   "icons": [
     {
-      "src": "/Twwwwwins/icon-placeholder.svg",
+      "src": "/opa/icon-placeholder.svg",
       "type": "image/svg+xml",
       "sizes": "any",
       "purpose": "any"
     },
     {
-      "src": "/Twwwwwins/icon-128x128.png",
+      "src": "/opa/icon-128x128.png",
       "type": "image/png",
       "sizes": "128x128"
     },
     {
-      "src": "/Twwwwwins/icon-192x192.png",
+      "src": "/opa/icon-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/Twwwwwins/icon-512x512.png",
+      "src": "/opa/icon-512x512.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any maskable"
