@@ -1,4 +1,4 @@
-const CACHE_NAME = 'rezerv-id-v1';
+const CACHE_NAME = 'ksiva-id-v1';
 const urlsToCache = [
   './',
   './index.html'
