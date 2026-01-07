@@ -9,11 +9,11 @@ export function IdCardPage() {
     photo: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop',
     birthDate: '15.12.1988',
     defermentDate: '02.02.2026',
-    lastName: 'ЯЦКОВЕЦЬ',
+    lastName: 'ЯЦKOВЕЦЬ',
     firstName: 'АНДРІЙ',
     patronymic: 'Петрович',
-    category: 'Військовозобов\'язаний',
-    updateInfo: 'Документ оновлено о 20:24 | 08.12.2025 • '
+    category: 'Війcьковозобов\'язаний',
+    updateInfo: 'Дoкумент оновлено о 20:24 | 04.01.2026 • '
   });
 
   const handlePhotoChange = (e: React.ChangeEvent<HTMLInputElement>) => {
