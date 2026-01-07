@@ -50,7 +50,7 @@
         '@': path.resolve(__dirname, './src'),
       },
     },
-    base: '/Twwwwwins/', 
+    base: '/opa/', 
     build: {
     outDir: 'dist',     
 },
