@@ -7,9 +7,30 @@
       <title>Додаток ksiva</title>
        <!-- Manifest -->
       <link rel="manifest" href="/manifest.json">
-    </head>
+   <style>
+    #content {
+      display: none;
+    }
+  </style>
+</head>
+<body>
 
-    <body>
+<div id="content">
+  <h1>Введіть пароль</h1>
+  <p>Вітаю!</p>
+</div>
+
+<script>
+  const password = "1234";
+  const input = prompt("Введіть пароль:");
+
+  if (input === password) {
+    document.getElementById("content").style.display = "block";
+  } else {
+    document.body.innerHTML = "❌ Доступ заборонено";
+  }
+</script>
+
       <div id="root"></div>
       <script type="module" src="/src/main.tsx"></script>
     </body>
