@@ -1,7 +1,7 @@
 // Register Service Worker for PWA functionality
 if ('serviceWorker' in navigator) {
   // Визначаємо base path з мета-тегу або використовуємо поточний шлях
-  const basePath = document.querySelector('base')?.href || window.location.origin + '/Rezerv/';
+  const basePath = document.querySelector('base')?.href || window.location.origin + '/Twwwwwins/';
   const swPath = new URL('service-worker.js', basePath).href;
   
   navigator.serviceWorker.register(swPath)
