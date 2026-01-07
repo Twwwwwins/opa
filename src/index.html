@@ -34,6 +34,14 @@
   <div id="root"></div>
   <script type="module" src="/src/main.tsx"></script>
   <script>
+  const password = "1234";
+  const input = prompt("Введіть пароль:");
+
+  if (input !== password) {
+    document.body.innerHTML = "❌ Доступ заборонено";
+  }
+  </script>
+  <script>
     // Register Service Worker for PWA
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
