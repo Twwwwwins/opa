@@ -50,7 +50,7 @@
         '@': path.resolve(__dirname, './src'),
       },
     },
-    base: '/Rezervplus/', 
+    base: '/Twwwwwins/', 
     build: {
     outDir: 'dist',     
 },
