@@ -26,7 +26,8 @@ export function IdCard({ userData, onPlusClick, onPhotoChange }: IdCardProps) {
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   const handlePhotoClick = () => {
-    fileInputRef.current?.click();
+    console.log('HANDLE PHOTO CLICK');
+    {/*   fileInputRef.current?.click();*/}
   };
 
   const handleFlip = () => {
