@@ -18,7 +18,7 @@ export function VacanciesPage() {
       {/* Description text */}
       <div className="mb-[24px]">
         <p className="font-['e-Ukraine',sans-serif] font-normal text-[#2c2c2c] text-[16px] leading-[24px] tracking-[-0.2px] mb-[24px]">
-          Тут знаходяться актуальні посади для служби в українському війську, надані у співпраці з платформою Lobby X.
+          Тут знаходяться актуальні посади для служби в українському війcьку, надані у співпраці з платформою Lobby X.
         </p>
         <p className="font-['e-Ukraine',sans-serif] font-normal text-[#2c2c2c] text-[16px] leading-[24px] tracking-[-0.2px]">
           Це найбільший пеелік пропозицій, який допоможе знайти ту, що підходить саме вам. Обирайте варіанти, подавайте заявки у кілька кліків і очікуйте відповіді від бригади.
