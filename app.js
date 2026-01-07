@@ -1,6 +1,6 @@
 // Register Service Worker for PWA functionality
 if ('serviceWorker' in navigator) {
-  // Визначаємо base path з мета-тегу або використовуємо поточний шлях
+  // Визначаємо base path з мета-тегу або використовуємо поточний шлях   
   const basePath = document.querySelector('base')?.href || window.location.origin + '/opa/';
   const swPath = new URL('service-worker.js', basePath).href;
   
