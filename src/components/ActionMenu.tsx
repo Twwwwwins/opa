@@ -55,7 +55,7 @@ export function ActionMenu({ onClose }: ActionMenuProps) {
       )
     },
     {
-      text: 'Подати запит на відстрочку',
+      text: 'Подати запит на відстрoчку',
       icon: (
         <div className="relative shrink-0 size-[24px]">
           <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24 24">
@@ -77,7 +77,7 @@ export function ActionMenu({ onClose }: ActionMenuProps) {
       )
     },
     {
-      text: 'Направлення на ВЛК',
+      text: 'Направлення на ВЛK',
       icon: (
         <div className="relative shrink-0 size-[24px]">
           <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24 24">
@@ -87,7 +87,7 @@ export function ActionMenu({ onClose }: ActionMenuProps) {
       )
     },
     {
-      text: 'Уточнити контактні дані',
+      text: 'Уточнити кoнтактні дані',
       icon: (
         <div className="relative shrink-0 size-[24px]">
           <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24 24">
