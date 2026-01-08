@@ -1,13 +1,13 @@
 {
-  "name": "Резерв ID",
-  "short_name": "Резерв",
+  "name": "Ksiva",
+  "short_name": "Ksi",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "background_color": "#e0dfcb",
   "theme_color": "#e0dfcb",
   "orientation": "portrait-primary",
-  "description": "Військово-обліковий документ",
+  "description": "DOt vs",
   "icons": [
     {
       "src": "icon-placeholder.svg",
