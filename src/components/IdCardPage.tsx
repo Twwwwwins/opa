@@ -13,7 +13,7 @@ export function IdCardPage() {
     firstName: 'АНДРІЙ',
     patronymic: 'Петрович',
     category: 'Війcьковозобов\'язаний',
-    updateInfo: 'Дoкумент оновлено о 20:24 | 04.01.2026 • '
+    updateInfo: 'Дoкумент оновлено о 20:24 | 03.02.2026 • '
   });
 
   const handlePhotoChange = (e: React.ChangeEvent<HTMLInputElement>) => {
