@@ -8,7 +8,7 @@ export function IdCardPage() {
   const [userData, setUserData] = useState({
     photo: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop',
     birthDate: '15.12.1988',
-    defermentDate: '02.02.2026',
+    defermentDate: '02.05.2026',
     lastName: 'ЯЦKOВЕЦЬ',
     firstName: 'АНДРІЙ',
     patronymic: 'Петрович',
